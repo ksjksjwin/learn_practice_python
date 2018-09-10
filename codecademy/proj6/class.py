@@ -14,4 +14,5 @@ In Python __main__ means "this current file that we're running" and so one could
 4. Methods are functions that are defined as part of a class.
 5. Methods that are used to prepare an object being instantiated are called constructors. The word "constructor" is used to describe similar features in other object-oriented programming languages but programmers who refer to a constructor in Python are usually talking about the __init__ method.
 6. class is a schematic for a data type and an object is an instance of a class
+7. The data held by an object is referred to as an instance variable. Instance variables aren't shared by all instances of a class — they are variables that are specific to the object they are attached to
 """
