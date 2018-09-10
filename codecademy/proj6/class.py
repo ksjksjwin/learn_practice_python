@@ -9,4 +9,8 @@ print(type(cool_instance))
 We then print out the type() of cool_instance and it shows us that this object is of type __main__.CoolClass.
 
 In Python __main__ means "this current file that we're running" and so one could read the output from type() to mean "the class CoolClass that was defined here, in the script you're currently running."
+
+- A class variable is a variable that's the same for every instance of the class.
+
+You can define a class variable by including it in the indented part of your class definition, and you can access all of an object's class variables with object.variable syntax.
 """
