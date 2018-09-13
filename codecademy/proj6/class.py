@@ -16,9 +16,12 @@ In Python __main__ means "this current file that we're running" and so one could
 6. class is a schematic for a data type and an object is an instance of a class
 7. The data held by an object is referred to as an instance variable. Instance variables aren't shared by all instances of a class — they are variables that are specific to the object they are attached to
 8. hasattr(attributeless, "fake_attribute")
-9. When two classes have the same method names and attributes, we say they implement the same interface. An interface in Python usually refers to the names of the methods and the arguments they take. 
+
 # returns False
 
 getattr(attributeless, "other_fake_attribute", 800)
 # returns 800, the default value
+
+9. When two classes have the same method names and attributes, we say they implement the same interface. An interface in Python usually refers to the names of the methods and the arguments they take. 
+10.  Polymorphism is the term used to describe the same syntax (like the + operator here, but it could be a method name) doing different actions depending on the type of data.
 """
