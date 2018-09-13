@@ -24,4 +24,10 @@ getattr(attributeless, "other_fake_attribute", 800)
 
 9. When two classes have the same method names and attributes, we say they implement the same interface. An interface in Python usually refers to the names of the methods and the arguments they take. 
 10.  Polymorphism is the term used to describe the same syntax (like the + operator here, but it could be a method name) doing different actions depending on the type of data.
+11. __init__, our constructor, which sets a list of users to the instance variable self.user_list and sets the group's permissions when we create a new UserGroup.
+__iter__, the iterator, we use the iter() function to turn the list self.user_list into an iterator so we can use for user in user_group syntax. For more information on iterators, review Python's documentation of Iterator Types.
+__len__, the length method, so when we call len(user_group) it will return the length of the underlying self.user_list list.
+__contains__, the check for containment, allows us to use user in user_group syntax to check if a User exists in the user_list we have.
+
+
 """
