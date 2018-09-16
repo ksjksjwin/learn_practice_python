@@ -6,5 +6,7 @@ An individual node contains data and links to other nodes. Each data structure a
 2. The link or links within the node are sometimes referred to as pointers. This is because they "point" to another node.
 
 Typically, data structures implement nodes with one or more links. If these links are null, it denotes that you have reached the end of the particular node or link path you were previously following.
+
+3. If you inadvertently remove the single link to a node, that node's data and any linked nodes could be "lost" to your application. When this happens to a node, it is considered an orphaned node.
 """
 
