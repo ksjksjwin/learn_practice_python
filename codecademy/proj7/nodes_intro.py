@@ -8,5 +8,12 @@ An individual node contains data and links to other nodes. Each data structure a
 Typically, data structures implement nodes with one or more links. If these links are null, it denotes that you have reached the end of the particular node or link path you were previously following.
 
 3. If you inadvertently remove the single link to a node, that node's data and any linked nodes could be "lost" to your application. When this happens to a node, it is considered an orphaned node.
+
+Summary: 
+
+- Contain data, which can be a variety of data types
+- Contain links to other nodes. If a node has no links, or they are all null, you have reached the end of the path you were following.
+- Can be orphaned if there are no existing links to them
+
 """
 
