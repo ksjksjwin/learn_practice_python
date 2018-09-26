@@ -44,3 +44,7 @@ class Solution:
             else:
                 result.append(prefix[i-1] * suffix[i+1])
         return result
+
+    """
+    This runs in O(N) time and space, since iterating over the input arrays takes O(N) time and creating the prefix and suffix arrays take up O(N) space.
+    """
