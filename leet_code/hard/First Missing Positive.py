@@ -24,8 +24,10 @@ class Solution:
         :type nums: List[int]
         :rtype: int
         """
+        set_nums = set(nums)
         i = 1
         
-        while i in nums:
+        while i in set_nums:
             i += 1
         return i
+            
